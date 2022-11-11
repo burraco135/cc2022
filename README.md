@@ -45,3 +45,11 @@ Materiale per l'esame di calcolabilità e complessità
 #### Sottrazione tra positivi: `f(x,y) = x-y`
 ![sottrazione_unaria](https://user-images.githubusercontent.com/64893048/201394056-ad25126f-2a36-497e-b03c-a523d5502034.png)
 ![sottrazione_binaria](https://user-images.githubusercontent.com/64893048/201394517-efcd2ede-7a2f-4a4b-88c8-f8fd6e7ca341.png)
+
+#### Moltiplicazione: `f(x,y) = x*y`
+![moltiplicazione_unaria](https://user-images.githubusercontent.com/64893048/201396046-683436f3-f34d-4372-8c50-24eda73686f7.png)
+![moltiplicazione_binaria](https://user-images.githubusercontent.com/64893048/201398396-a5056b5e-a98a-4739-95c8-ac232e4526d4.png)
+
+#### Incrementa: `f(x,y) = x+1`
+
+
