@@ -35,3 +35,7 @@ Materiale per l'esame di calcolabilità e complessità
 ![massimo_unario](https://user-images.githubusercontent.com/64893048/201388522-47c1346d-1925-461c-97bc-5deea6c92ce9.png)
 
 ![massimo_binario](https://user-images.githubusercontent.com/64893048/201389320-4f02a8f6-147f-43cf-b3ea-bb810f73682e.png)
+
+#### Addizione a 2: `f(x,y) = x+y`
+![somma_unaria](https://user-images.githubusercontent.com/64893048/201390173-92db6af6-774d-4e5b-93dc-d95488d74203.png)
+![somma_binaria](https://user-images.githubusercontent.com/64893048/201392850-ac21e0e2-f39e-433b-89a0-d6fad6a2c7b9.png)
