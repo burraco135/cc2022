@@ -3,8 +3,8 @@
 Materiale per l'esame di calcolabilità e complessità
 
 ## Autori
-[Ester](https://github.com/burraco135)
-[Giacomo](https://github.com/)
+- [Ester](https://github.com/burraco135)
+- [Giacomo](https://github.com/GiacomoSignorile)
 
 ## Indice
 - [Teoremi](#teoremi)
