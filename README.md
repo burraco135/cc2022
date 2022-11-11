@@ -39,3 +39,9 @@ Materiale per l'esame di calcolabilità e complessità
 #### Addizione a 2: `f(x,y) = x+y`
 ![somma_unaria](https://user-images.githubusercontent.com/64893048/201390173-92db6af6-774d-4e5b-93dc-d95488d74203.png)
 ![somma_binaria](https://user-images.githubusercontent.com/64893048/201392850-ac21e0e2-f39e-433b-89a0-d6fad6a2c7b9.png)
+
+#### Addizione a 3: `f(x,y,z) = x+y+z`
+
+#### Sottrazione tra positivi: `f(x,y) = x-y`
+![sottrazione_unaria](https://user-images.githubusercontent.com/64893048/201394056-ad25126f-2a36-497e-b03c-a523d5502034.png)
+![sottrazione_binaria](https://user-images.githubusercontent.com/64893048/201394517-efcd2ede-7a2f-4a4b-88c8-f8fd6e7ca341.png)
