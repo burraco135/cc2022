@@ -25,3 +25,9 @@ Materiale per l'esame di calcolabilità e complessità
 ### Teorema di Savitch
 
 ## Macchine di Turing
+### Funzioni
+#### Sottrazione in modulo: `f(x,y) = |x-y|`
+![sottrazione_unaria_modulo](https://user-images.githubusercontent.com/64893048/201385766-715078f7-0728-43d0-b3d7-4338701f52de.png)
+
+![sottrazione_binaria_modulo](https://user-images.githubusercontent.com/64893048/201387757-e478c577-9b6c-4efd-b71f-a87a6000033f.png)
+
