@@ -31,3 +31,7 @@ Materiale per l'esame di calcolabilità e complessità
 
 ![sottrazione_binaria_modulo](https://user-images.githubusercontent.com/64893048/201387757-e478c577-9b6c-4efd-b71f-a87a6000033f.png)
 
+#### Massimo: `f(x,y) = max(x,y)`
+![massimo_unario](https://user-images.githubusercontent.com/64893048/201388522-47c1346d-1925-461c-97bc-5deea6c92ce9.png)
+
+![massimo_binario](https://user-images.githubusercontent.com/64893048/201389320-4f02a8f6-147f-43cf-b3ea-bb810f73682e.png)
