@@ -52,4 +52,4 @@ Materiale per l'esame di calcolabilità e complessità
 
 #### Incrementa: `f(x,y) = x+1`
 
-
+![incrementa_binario](https://user-images.githubusercontent.com/64893048/201399058-d843ec2a-5e2e-476c-a403-9cf83ded2c3d.png)
