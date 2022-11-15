@@ -1,8 +1,48 @@
 ## Macchine di Turing
 ### Funzioni
 #### Sottrazione in modulo: `f(x,y) = |x-y|`
+
+- **Se leggi 1**,
+  - Inizia Inversione, oppure
+    - Metti $ all'inizio
+    - Vai al segno (-)
+    - Vai alla fine
+      - **Se leggi 1**, toglilo e mettilo all'inizio
+      - **Se leggi il segno (-)**, toglilo e vai alla fine
+  - Inizia Sottrazione
+    - Vai alla fine
+      - **Se leggi 1**, toglilo e vai all'inizio
+        - **Se leggi 1**, toglilo e vai a destra
+      - **Se leggi il segno (-)**, toglilo e fine (HALT)
+- **Se leggi il segno (-)**,
+  - Fine (HALT)
+  
 ![sottrazione_unaria_modulo](https://user-images.githubusercontent.com/64893048/201385766-715078f7-0728-43d0-b3d7-4338701f52de.png)
 
+- **Se leggi 0 o 1**
+  - Inizia conversione, oppure
+    - Metti $ all'inizio
+    - Vai alla fine
+      - **Se leggi 0**, toglilo e mettilo all'inizio
+      - **Se leggi 1**, toglilo e mettilo all'inizio
+  - Inizia sottrazione
+    - Vai alla fine
+      - **Se leggi 0 (finale)**, toglilo e vai al segno (-)
+        - Salta le u e le z
+          - **Se trovi 0**, scrivi z (0-0=0)
+          - **Se trovi 1**, scrivi u (1-0=0)
+      - **Se leggi 1 (finale)**, toglilo e vai al segno (-)
+        - Salta le u e le z
+          - **Se trovi 0**, scrivi u (0-1=0 con riporto) e vai a sinistra
+            - **Se trovi 0**, scrivi 1
+            - **Se trovi 1**, scrivi 0
+          - **Se trovi 1**, scrivi z (1-1=0)
+      - **Se leggi il segno (-)**, toglilo e vai all'inizio
+        - Fine (HALT)
+- **Se leggi il segno** (-)
+  - Fine (HALT)
+  
+  
 ![sottrazione_binaria_modulo](https://user-images.githubusercontent.com/64893048/201387757-e478c577-9b6c-4efd-b71f-a87a6000033f.png)
 
 #### Massimo: `f(x,y) = max(x,y)`
