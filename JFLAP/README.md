@@ -5,7 +5,7 @@
 ```
 Se leggi 1,
 |   Inizia Inversione, oppure
-|   |   Metti $ all'inizio<br>
+|   |   Metti $ all'inizio
 |   |   Vai al segno (-)
 |   |   Vai alla fine
 |   |   |   Se leggi 1, toglilo e mettilo all'inizio
