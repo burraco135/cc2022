@@ -2,20 +2,22 @@
 ### Funzioni
 #### Sottrazione in modulo: `f(x,y) = |x-y|`
 
-- **Se leggi 1**,
-  - Inizia Inversione, oppure
-    - Metti $ all'inizio
-    - Vai al segno (-)
-    - Vai alla fine
-      - **Se leggi 1**, toglilo e mettilo all'inizio
-      - **Se leggi il segno (-)**, toglilo e vai alla fine
-  - Inizia Sottrazione
-    - Vai alla fine
-      - **Se leggi 1**, toglilo e vai all'inizio
-        - **Se leggi 1**, toglilo e vai a destra
-      - **Se leggi il segno (-)**, toglilo e fine (HALT)
-- **Se leggi il segno (-)**,
-  - Fine (HALT)
+```
+Se leggi 1,
+|   Inizia Inversione, oppure
+|   |   Metti $ all'inizio<br>
+|   |   Vai al segno (-)
+|   |   Vai alla fine
+|   |   |   Se leggi 1, toglilo e mettilo all'inizio
+|   |   |   Altrimenti, se leggi il segno (-), toglilo e vai alla fine
+|   Inizia Sottrazione
+|   |   Vai alla fine
+|   |   |   Se leggi 1, toglilo e vai all'inizio
+|   |   |   |   Se leggi 1, toglilo e vai a destra
+|   |   |   Altrimenti, se leggi il segno (-), toglilo e fine (HALT)
+Altrimenti, se leggi il segno (-),
+|   Fine (HALT)
+```
   
 ![sottrazione_unaria_modulo](https://user-images.githubusercontent.com/64893048/201385766-715078f7-0728-43d0-b3d7-4338701f52de.png)
 
