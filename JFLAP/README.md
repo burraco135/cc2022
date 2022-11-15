@@ -21,29 +21,30 @@ Altrimenti, se leggi il segno (-),
   
 ![sottrazione_unaria_modulo](https://user-images.githubusercontent.com/64893048/201385766-715078f7-0728-43d0-b3d7-4338701f52de.png)
 
-- **Se leggi 0 o 1**
-  - Inizia conversione, oppure
-    - Metti $ all'inizio
-    - Vai alla fine
-      - **Se leggi 0**, toglilo e mettilo all'inizio
-      - **Se leggi 1**, toglilo e mettilo all'inizio
-  - Inizia sottrazione
-    - Vai alla fine
-      - **Se leggi 0 (finale)**, toglilo e vai al segno (-)
-        - Salta le u e le z
-          - **Se trovi 0**, scrivi z (0-0=0)
-          - **Se trovi 1**, scrivi u (1-0=0)
-      - **Se leggi 1 (finale)**, toglilo e vai al segno (-)
-        - Salta le u e le z
-          - **Se trovi 0**, scrivi u (0-1=0 con riporto) e vai a sinistra
-            - **Se trovi 0**, scrivi 1
-            - **Se trovi 1**, scrivi 0
-          - **Se trovi 1**, scrivi z (1-1=0)
-      - **Se leggi il segno (-)**, toglilo e vai all'inizio
-        - Fine (HALT)
-- **Se leggi il segno** (-)
-  - Fine (HALT)
-  
+```
+Se leggi 0 o 1
+|   Inizia Inversione, oppure
+|   |   Metti $ all'inizio
+|   |   Vai alla fine
+|   |   |   Se leggi 0, toglilo e mettilo all'inizio
+|   |   |   Altrimenti, se leggi 1, toglilo e mettilo all'inizio
+|   Inizia Sottrazione
+|   |   Vai alla fine
+|   |   |   Se leggi 0 (finale), toglilo e vai al segno (-)
+|   |   |   |   Salta le u e le z
+|   |   |   |   |   Se leggi 0, scrivi z (0-0=0)
+|   |   |   |   |   Altrimenti, se leggi 1, scrivi u (1-0=1)
+|   |   |   Altrimenti, se leggi 1 (finale), toglilo e vai al segno (-)
+|   |   |   |   Salta le u e le z
+|   |   |   |   |   Se leggi 0, scrivi u (0-1=0 con riporto) e vai a sinistra
+|   |   |   |   |   |   Se trovi 0, scrivi 1
+|   |   |   |   |   |   Altrimenti, se trovi 1, scrivi 0
+|   |   |   |   |   Altrimenti, se leggi 1, scrivi z (1-1=0)
+|   |   |   Altrimenti, se leggi il segno (-), toglilo e vai all'inizio
+|   |   |   |   Fine (HALT)
+Altrimenti, se leggi il segno (-),
+|   Fine (HALT)
+```
   
 ![sottrazione_binaria_modulo](https://user-images.githubusercontent.com/64893048/201387757-e478c577-9b6c-4efd-b71f-a87a6000033f.png)
 
