@@ -13,16 +13,16 @@ Materiale per l'esame di calcolabilità e complessità
 - Macchine di Turing
   - Funzioni
     - (link) Sottrazione in modulo: `f(x,y) = |x-y|`
-    - (link) Massimo: `f(x,y) = max(x,y)` (link)
-    - (link) Addizione a 2: `f(x,y) = x+y` (link)
-    - (link) Addizione a 3: `f(x,y,z) = x+y+z` (link)
-    - (link) Sottrazione tra positivi: `f(x,y) = x-y` (link)
-    - (link) Moltiplicazione: `f(x,y) = x*y` (link)
-    - (link) Incrementa: `f(x,y) = x+1` (link)
+    - (link) Massimo: `f(x,y) = max(x,y)`
+    - (link) Addizione a 2: `f(x,y) = x+y`
+    - (link) Addizione a 3: `f(x,y,z) = x+y+z`
+    - (link) Sottrazione tra positivi: `f(x,y) = x-y`
+    - (link) Moltiplicazione: `f(x,y) = x*y`
+    - (link) Incrementa: `f(x,y) = x+1`
   - Decisori
-    - (link) `{ w in {0,1}* | #(1,w) = #(0,w) }` (link)
-    - (link) `{ w in {0,1,2}* | #(2,w) = #(1,w) = #(0,w) }` (link)
-    - (link) `{ a^n b^n c^(n+1) | n > 0 }` (link)
+    - (link) `{ w in {0,1}* | #(1,w) = #(0,w) }`
+    - (link) `{ w in {0,1,2}* | #(2,w) = #(1,w) = #(0,w) }`
+    - (link) `{ a^n b^n c^(n+1) | n > 0 }`
 
 ## Teoremi
 ### Teorema di Cook-Levin
