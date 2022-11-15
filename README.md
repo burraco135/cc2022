@@ -7,22 +7,22 @@ Materiale per l'esame di calcolabilità e complessità
 - [Giacomo](https://github.com/GiacomoSignorile)
 
 ## Indice
-- [Teoremi](#teoremi)
+- Teoremi
   - Cook-Levine
   - Savitch
-- [Macchine di Turing](#macchine-di-turing)
+- Macchine di Turing
   - Funzioni
-    - Sottrazione in modulo: `f(x,y) = |x-y|`
-    - Massimo: `f(x,y) = max(x,y)`
-    - Addizione a 2: `f(x,y) = x+y`
-    - Addizione a 3: `f(x,y,z) = x+y+z`
-    - Sottrazione tra positivi: `f(x,y) = x-y`
-    - Moltiplicazione: `f(x,y) = x*y`
-    - Incrementa: `f(x,y) = x+1`
+    - (link) Sottrazione in modulo: `f(x,y) = |x-y|`
+    - (link) Massimo: `f(x,y) = max(x,y)` (link)
+    - (link) Addizione a 2: `f(x,y) = x+y` (link)
+    - (link) Addizione a 3: `f(x,y,z) = x+y+z` (link)
+    - (link) Sottrazione tra positivi: `f(x,y) = x-y` (link)
+    - (link) Moltiplicazione: `f(x,y) = x*y` (link)
+    - (link) Incrementa: `f(x,y) = x+1` (link)
   - Decisori
-    - `{ w in {0,1}* | #(1,w) = #(0,w) }`
-    - `{ w in {0,1,2}* | #(2,w) = #(1,w) = #(0,w) }`
-    - `{ a^n b^n c^(n+1) | n > 0 }`
+    - (link) `{ w in {0,1}* | #(1,w) = #(0,w) }` (link)
+    - (link) `{ w in {0,1,2}* | #(2,w) = #(1,w) = #(0,w) }` (link)
+    - (link) `{ a^n b^n c^(n+1) | n > 0 }` (link)
 
 ## Teoremi
 ### Teorema di Cook-Levin
